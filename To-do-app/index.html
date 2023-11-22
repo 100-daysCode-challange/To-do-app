@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>TTask Tracker</title>
+  </head>
+  <body>
+    <div class="continer">
+      <div class="to-do-container">
+        <div class="task-title">
+          <h1>Task Tracker Pro</h1>
+        </div>
+        <div class="create-task">
+          <input type="text" id="input-box" placeholder="create new task" />
+          <button onclick="createTask()">Create</button>
+        </div>
+        <div class="task-container">
+          <h3>All Tasks</h3>
+          <ul id="list-container">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
